@@ -161,6 +161,32 @@ main .why-us ul li {
   line-height: 1.5;
 }
 
+.attribution {
+  position: absolute;
+  left: 50%;
+  bottom: 1rem;
+  transform: translate(-50%, 0);
+  font-size: 1.3rem;
+}
+
+.attribution a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+}
+
+.attribution a:nth-child(1) {
+  border-right: 0.1rem solid;
+  padding-right: 1rem;
+}
+
+.attribution a:nth-child(2) {
+  padding-left: 1rem;
+}
+
 @media (max-width: 662px) {
   main {
     position: static;
@@ -186,6 +212,35 @@ main .why-us ul li {
   main .why-us {
     border-bottom-left-radius: 1.2rem;
     border-bottom-right-radius: 1.2rem;
+  }
+  .attribution {
+    position: static;
+    transform: none;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+}
+
+@media (max-height: 541px) {
+  main {
+    position: static;
+    margin: 2rem auto;
+    transform: none;
+  }
+  .attribution {
+    position: static;
+    transform: none;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+}
+
+@media (max-width: 215px) {
+  .attribution a {
+    display: block;
+    border: 0 !important;
+    padding: 0 !important;
+    text-align: center;
   }
 }
 /*# sourceMappingURL=styles.css.map */

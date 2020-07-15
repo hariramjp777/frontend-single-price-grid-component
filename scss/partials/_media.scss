@@ -26,4 +26,34 @@
       border-bottom-right-radius: 1.2rem;
     }
   }
+
+  .attribution {
+    position: static;
+    transform: none;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+}
+
+@media (max-height: 541px) {
+  main {
+    position: static;
+    margin: 2rem auto;
+    transform: none;
+  }
+  .attribution {
+    position: static;
+    transform: none;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+}
+
+@media (max-width: 215px) {
+  .attribution a {
+    display: block;
+    border: 0 !important;
+    padding: 0 !important;
+    text-align: center;
+  }
 }
