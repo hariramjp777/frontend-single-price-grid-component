@@ -135,4 +135,27 @@ main .subscription button:active {
 main .subscription button:focus {
   outline: none;
 }
+
+main .why-us {
+  background-color: rgba(42, 178, 175, 0.8);
+  color: #e5eff5;
+  padding: 3.8rem;
+  border-bottom-right-radius: inherit;
+  font-weight: 400;
+}
+
+main .why-us h3 {
+  font-size: 1.9rem;
+  font-weight: 700;
+}
+
+main .why-us ul {
+  margin: 1.7rem 0;
+  font-size: 1.6rem;
+  color: #d3e3ee;
+}
+
+main .why-us ul li {
+  line-height: 1.5;
+}
 /*# sourceMappingURL=styles.css.map */

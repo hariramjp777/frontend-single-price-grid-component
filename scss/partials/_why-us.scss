@@ -1,0 +1,21 @@
+main .why-us {
+  background-color: rgba(42, 178, 175, 0.8);
+  color: color(lightGray);
+  padding: 3.8rem;
+  border-bottom-right-radius: inherit;
+  font-weight: 400;
+
+  h3 {
+    font-size: 1.9rem;
+    font-weight: 700;
+  }
+
+  ul {
+    margin: 1.7rem 0;
+    font-size: 1.6rem;
+    color: darken(color(lightGray), 5%);
+    li {
+      line-height: 1.5;
+    }
+  }
+}
