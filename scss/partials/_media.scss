@@ -1,0 +1,29 @@
+@media (max-width: 662px) {
+  main {
+    position: static;
+    width: 92.7%;
+    margin: 2rem auto;
+    transform: none;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 1fr;
+
+    .community,
+    .subscription,
+    .why-us {
+      border-radius: 0;
+    }
+
+    .community {
+      grid-column: 1/2;
+      border-top-left-radius: 1.2rem;
+      border-top-right-radius: 1.2rem;
+      ul li {
+        display: inline;
+      }
+    }
+    .why-us {
+      border-bottom-left-radius: 1.2rem;
+      border-bottom-right-radius: 1.2rem;
+    }
+  }
+}

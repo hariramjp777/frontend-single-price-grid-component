@@ -160,4 +160,32 @@ main .why-us ul {
 main .why-us ul li {
   line-height: 1.5;
 }
+
+@media (max-width: 662px) {
+  main {
+    position: static;
+    width: 92.7%;
+    margin: 2rem auto;
+    transform: none;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 1fr;
+  }
+  main .community,
+  main .subscription,
+  main .why-us {
+    border-radius: 0;
+  }
+  main .community {
+    grid-column: 1/2;
+    border-top-left-radius: 1.2rem;
+    border-top-right-radius: 1.2rem;
+  }
+  main .community ul li {
+    display: inline;
+  }
+  main .why-us {
+    border-bottom-left-radius: 1.2rem;
+    border-bottom-right-radius: 1.2rem;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
