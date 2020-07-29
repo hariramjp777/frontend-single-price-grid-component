@@ -1,4 +1,4 @@
-# Front end mentor Challenge
+# Frontend Mentor Challenge
 
 ## Single Price Grid Component [:link:][link]
 
